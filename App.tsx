@@ -34,7 +34,6 @@ export default function App(): JSX.Element {
   return (
     <KeyboardAvoidingView
       style={styles.container}
-      behavior={Platform.OS === 'ios' ? 'padding' : undefined}
     >
       <Text style={styles.title}>Calculadora de IMC</Text>
 
